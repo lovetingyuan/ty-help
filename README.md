@@ -1,15 +1,15 @@
 ## ty-help
 run command that installed in local node modules
 
-###install
+### install
 `npm install -D ty-help`
 
-###usage:
+### usage:
 add npm run command in your package.json file:
 
 ```json
 {
-  scripts: {
+  "scripts": {
     "help": "ty-help"
   }
 }
@@ -22,5 +22,5 @@ or you can run a command with other options, like:
 
 `npm run help http-server -- "./public -p 8888"`
 
-###License
+### License
 MIT
