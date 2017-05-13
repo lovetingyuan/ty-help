@@ -1,0 +1,31 @@
+{
+  "name": "ty-help",
+  "version": "1.0.0",
+  "description": "run command that installed in local npm modules",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lovetingyuan/ty-help.git"
+  },
+  "keywords": [
+    "cli",
+    "command",
+    "run",
+    "npm"
+  ],
+  "devDependencies": {
+    "cross-spawn": "^5.1.0"
+  },
+  "bin": {
+    "ty-help": "./bin/ty-help"
+  },
+  "author": "tingyuan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lovetingyuan/ty-help/issues"
+  },
+  "homepage": "https://github.com/lovetingyuan/ty-help#readme"
+}
