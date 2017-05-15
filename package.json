@@ -1,6 +1,6 @@
 {
   "name": "ty-help",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "run command that installed in local npm modules",
   "main": "index.js",
   "scripts": {
@@ -16,9 +16,7 @@
     "run",
     "npm"
   ],
-  "devDependencies": {
-    "cross-spawn": "^5.1.0"
-  },
+  "devDependencies": {},
   "bin": {
     "ty-help": "./bin/ty-help"
   },
@@ -27,5 +25,8 @@
   "bugs": {
     "url": "https://github.com/lovetingyuan/ty-help/issues"
   },
-  "homepage": "https://github.com/lovetingyuan/ty-help#readme"
+  "homepage": "https://github.com/lovetingyuan/ty-help#readme",
+  "dependencies": {
+    "cross-spawn": "^5.1.0"
+  }
 }
