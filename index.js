@@ -2,7 +2,6 @@ var spawn = require('cross-spawn');
 var path = require('path')
 var fs = require('fs')
 
-
 var cli = process.argv[2]
 var options = process.argv[3]
 
@@ -17,7 +16,7 @@ var showUsage = function() {
 if (!cli) {
   console.log('no command found')
   showUsage()
-  var pkgPath = path.resolve(__dirname, 'package.json')
+  var pkgPath = path.resolve(process.cwd(), 'package.json')
   if(fs.existsSync(pkgPath)) {
     var pkg = require(pkgPath)
     if(!pkg.scripts) return

@@ -1,7 +1,7 @@
 {
   "name": "ty-help",
-  "version": "1.0.2",
-  "description": "run command that installed in local npm modules",
+  "version": "1.0.3",
+  "description": "Run command that installed in local npm modules",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
