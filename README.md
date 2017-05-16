@@ -1,5 +1,5 @@
 ## ty-help
-run command that installed in local node modules
+Run command installed in local node modules
 
 ### install
 `npm install -D ty-help`
@@ -14,7 +14,7 @@ add npm run command in your package.json file:
   }
 }
 ```
-for example, if you want to get help info for 'http-server', you can simply run:
+for example, if you want to get help info for [`http-server`](https://github.com/indexzero/http-server), you can simply run:
 
 `npm run help http-server`
 
