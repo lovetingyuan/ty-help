@@ -1,6 +1,6 @@
 {
   "name": "ty-help",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Run command that installed in local npm modules",
   "main": "index.js",
   "scripts": {
